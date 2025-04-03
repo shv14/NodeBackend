@@ -407,17 +407,17 @@ app.use(express.static(path.join(__dirname, "../../user-web-app")));
 //   res.sendFile(path.join(__dirname, '../../user-web-app/home.html'));
 // });
 
-const frontendDir = path.join(__dirname, '../../user-web-app');
+// const frontendDir = path.join(__dirname, '../../user-web-app');
 // const frontendDir2 = path.join(__dirname, '../../user-web-app/src/services/Auth');
 
 
-app.use(express.static(frontendDir));
+// app.use(express.static(frontendDir));
 // app.use(express.static(frontendDir2));
 
 // Route to render the HTML file
-app.get('/', (req, res) => {
-    res.sendFile(path.join(frontendDir, 'home.html')); // Replace 'index.html' with your file name
-});
+// app.get('/', (req, res) => {
+//     res.sendFile(path.join(frontendDir, 'home.html')); // Replace 'index.html' with your file name
+// });
 
 // app.get('/src/services/Auth/login.html', (req, res) => {
 //     res.sendFile(path.join(frontendDir, '/src/services/Auth/login.html')); // Replace 'index.html' with your file name
