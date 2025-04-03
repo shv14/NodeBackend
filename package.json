@@ -7,7 +7,7 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "start":"node app3.js",
+    "start":"node src/app3.js",
     "dev": "nodemon src/app3.js"
   },
   "dependencies": {
